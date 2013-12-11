@@ -11,7 +11,6 @@ mkdir deploy
 
 # Group file
 cp group.txt ./deploy
-cp README.md ./deploy
 cp startup.m ./deploy
 
 # MATLAB code + MAT files
@@ -23,7 +22,6 @@ cp -rv ./feature ./deploy
 cp -rv ./predict ./deploy
 
 cp -rv ./model ./deploy
-rm -rf ./deploy/model/old
 
 # libngram code + compile script, but not binaries
 cp -rv ./libngram ./deploy
