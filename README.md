@@ -53,7 +53,8 @@ Directory structure:
 
 > data  
 > > review_dataset.mat    Training data (courtesy of Yelp) used for the contest  
-> > metadata.mat 	      Observation metadata associated with review_dataset  
+> > metadata.mat 	      Observation metadata associated with review_dataset
+
 > code  
 > > deploy.sh 		   	  Script to copy only components of model for final submission  
 > > feature 			  Feature selection and analysis  
