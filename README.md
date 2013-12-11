@@ -52,21 +52,21 @@ Checkpoints:
 Directory structure:
 
 > data  
->   review_dataset.mat    Training data (courtesy of Yelp) used for the contest  
->   metadata.mat 	      Observation metadata associated with review_dataset  
+> > review_dataset.mat    Training data (courtesy of Yelp) used for the contest  
+> > metadata.mat 	      Observation metadata associated with review_dataset  
 > code  
->   deploy.sh 		   	  Script to copy only components of model for final submission  
->   feature 			  Feature selection and analysis  
->   group.txt			  Name of the group for leaderboard submission  
->   liblinear 			  Binaries/code for MATLAB liblinear implementation  
->   mex 				  C++ source for MEX implementation of ngrams + misc other MEX code  
->   model 				  MAT files of compiled models  
->	predict			      Prediction methods for sub-models  
->	startup.m			  Loads the Autoboost 9000 environment with necessary data  
->   submission 		      Code for running the final submission  
->   support			      Various supporting methods  
->   test				  Code for running the quiz submission (test set)  
->   train				  Training methods for sub-models  
->   tune				  Tuning methods for sub-models + ensembles  
->   utils				  Misc. scripts for testing/evaluating data  
+> > deploy.sh 		   	  Script to copy only components of model for final submission  
+> > feature 			  Feature selection and analysis  
+> > group.txt			  Name of the group for leaderboard submission  
+> > liblinear 			  Binaries/code for MATLAB liblinear implementation  
+> > mex 				  C++ source for MEX implementation of ngrams + misc other MEX code  
+> > model 				  MAT files of compiled models  
+> > predict			      Prediction methods for sub-models  
+> > startup.m			  Loads the Autoboost 9000 environment with necessary data  
+> > submission 		      Code for running the final submission  
+> > support			      Various supporting methods  
+> > test				  Code for running the quiz submission (test set)  
+> > train				  Training methods for sub-models  
+> > tune				  Tuning methods for sub-models + ensembles  
+> > utils				  Misc. scripts for testing/evaluating data  
 
