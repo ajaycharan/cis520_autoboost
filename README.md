@@ -18,7 +18,11 @@ Tournament rankings (top 5):
     4) PENNalizers					0.812594
     5) X							0.812632
 
+Leaderboard: [Link](http://www.seas.upenn.edu/~cis520/fall13/finalfinalleaderboard.html/ "Contest leaderboard")
+
 License: Apache 2.0, see LICENSE for details.
+
+---
 
 Instructions:
 
@@ -28,6 +32,8 @@ model as well as the final ensemble:
 	1) cd into the 'mex' folder and run make_mex.m
 	2) Ensure 'BUILD_BIGRAMS' is true in startup.m
 	3) Run tune_ensemble.m and wait for a few minutes.
+
+---
 
 Checkpoints:
 
@@ -41,24 +47,26 @@ Checkpoints:
 
 [X]   Dec. 10 Submit final report (20%)
 
+---
+
 Directory structure:
 
-├─── data
-	├─── review_dataset.mat Training data (courtesy of Yelp) used for the contest  
-    └─── metadata.mat 		Observation metadata associated with review_dataset  
-├─── code  
-    ├─── deploy.sh 		   	Script to copy only components of model for final submission  
-    ├─── feature 			Feature selection and analysis  
-    ├─── group.txt			Name of the group for leaderboard submission  
-    ├─── liblinear 			Binaries/code for MATLAB liblinear implementation  
-    ├─── mex 				C++ source for MEX implementation of ngrams + misc other MEX code  
-    ├─── libsvm 			Binaries for MATLAB libsvm implementation  
-    ├─── model 				MAT files of compiled models  
-	├─── predict			Prediction methods for sub-models  
-	├─── startup.m			Loads the Autoboost 9000 environment with necessary data  
-	├─── submission 		Code for running the final submission  
-    ├─── support			Various supporting methods  
-    ├─── test				Code for running the quiz submission (test set)  
-    ├─── train				Training methods for sub-models  
-    ├─── tune				Tuning methods for sub-models + ensembles  
-    └─── utils				Misc. scripts for testing/evaluating data  
+> data  
+>   review_dataset.mat    Training data (courtesy of Yelp) used for the contest  
+>   metadata.mat 	      Observation metadata associated with review_dataset  
+> code  
+>   deploy.sh 		   	  Script to copy only components of model for final submission  
+>   feature 			  Feature selection and analysis  
+>   group.txt			  Name of the group for leaderboard submission  
+>   liblinear 			  Binaries/code for MATLAB liblinear implementation  
+>   mex 				  C++ source for MEX implementation of ngrams + misc other MEX code  
+>   model 				  MAT files of compiled models  
+>	predict			      Prediction methods for sub-models  
+>	startup.m			  Loads the Autoboost 9000 environment with necessary data  
+>   submission 		      Code for running the final submission  
+>   support			      Various supporting methods  
+>   test				  Code for running the quiz submission (test set)  
+>   train				  Training methods for sub-models  
+>   tune				  Tuning methods for sub-models + ensembles  
+>   utils				  Misc. scripts for testing/evaluating data  
+
