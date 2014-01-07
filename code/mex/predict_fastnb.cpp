@@ -33,7 +33,7 @@ extern "C" {
 /**
  *  @brief Y = predict_fastnb(model, X) performs predictions using a multinomial Naive Bayes classifier
  *  @param model A model generated using train_fastnb
- *  @param X MxN Matrix of observations, where columns are features (ie. X is transposed!)
+ *  @param X MxN Matrix of observations, where columns are observations (ie. X is transposed!)
  *  @return Y NxK Matrix of log probabilities, where K is the number of labels in the model
  *  @note This method is about 100x faster than Matlab's NaiveBayes.predict
  *  @see train_fastnb
